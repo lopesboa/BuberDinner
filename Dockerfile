@@ -12,4 +12,4 @@ FROM mcr.microsoft.com/dotnet/aspnet:6.0
 WORKDIR /App
 COPY --from=build /App/out .
 
-ENTRYPOINT ["dotnet", "run"]
+ENTRYPOINT ["dotnet", "BuberDinner.Api.dll"]
