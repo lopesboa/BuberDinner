@@ -34,7 +34,7 @@ POST {{ host }}/auth/register
 ```
 ```json
 {
-  "id":"b53aac99-b855-4357-ab2f-a28d803229d0"
+  "id":"b53aac99-b855-4357-ab2f-a28d803229d0",
   "firstName":"Lopes",
   "lastName":"Boa",
   "email":"lopesboa@email.com",
@@ -59,7 +59,7 @@ POST {{ host }}/auth/login
 ```
 ```json
 {
-  "id":"b53aac99-b855-4357-ab2f-a28d803229d0"
+  "id":"b53aac99-b855-4357-ab2f-a28d803229d0",
   "firstName":"Lopes",
   "lastName":"Boa",
   "email":"lopesboa@email.com",
